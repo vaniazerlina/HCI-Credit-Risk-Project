@@ -1,29 +1,36 @@
 # Home Credit Indonesia - Credit Risk Prediction
 
 ## Project Overview
-This project is part of a Data Scientist Virtual Internship program offered through **Rakamin Academy** in collaboration with **Home Credit Indonesia**, a leading consumer finance company in Indonesia. The project aims to predict credit risk for loan applicants using a combination of core and supplementary datasets.
+This project was completed as part of the **Rakamin Academy Data Science Virtual Internship** with **Home Credit Indonesia**, a leading consumer finance company providing credit and installment services for a wide range of customers in Indonesia.  
+The main objective of this project is to **predict the likelihood of loan applicants defaulting** by leveraging multiple datasets to build accurate, data-driven credit risk models.
 
-We worked with:
-- 300K+ core loan applications
-- 53M+ records from 7 supporting datasets including bureau, credit card, POS_CASH, previous applications, and installments.
+## Dataset
+The project uses:
+- **Core loan application data** (~300K records for train/test)
+- **Supplementary datasets** (~53M records) including bureau, credit card, POS_CASH, previous applications, and installments.
 
-Models built include **Random Forest**, **LightGBM**, and **Logistic Regression**, with attention to class imbalance. Feature engineering was performed across multiple datasets to maximize predictive power.
+## Project Workflow
+The project is structured in two main phases:
 
-**Best Model Performance (Random Forest):**
+1. **Data Analysis**
+   - Exploratory data analysis, feature exploration, and insights discovery.
+   - [View Data Analysis Notebook](https://colab.research.google.com/drive/1INZpjbL6hEEYEsJPhnmrTSR5FBBKe0LU)
+
+2. **Data Preprocessing & Modeling**
+   - Feature engineering, handling class imbalance, and building predictive models.
+   - Models include Random Forest, LightGBM, and Logistic Regression.
+   - [View Preprocessing & Modeling Notebook](https://colab.research.google.com/drive/1VA_CjYOwYvBKh2s1TGLi8aSSgrj9BmeP)
+
+## Model Performance
+The best performing model is **Random Forest**, achieving:
 - Recall: 90%
 - Precision: 63%
-- ROC-AUC: 0.98
+- ROC-AUC: 0.98  
 
-These results allow actionable insights for accurate loan approval and effective risk mitigation.
-
-## Data Analysis
-You can explore the data analysis notebook here:  
-[Data Analysis Notebook](https://drive.google.com/file/d/1INZpjbL6hEEYEsJPhnmrTSR5FBBKe0LU/view?usp=sharing)
-
-## Preprocessing & Modeling
-The notebook for data preprocessing and model training can be found here:  
-[Preprocessing & Modeling Notebook](https://drive.google.com/file/d/1VA_CjYOwYvBKh2s1TGLi8aSSgrj9BmeP/view?usp=sharing)
+These results demonstrate strong capability in **identifying high-risk applicants** while minimizing false positives, enabling actionable insights for loan approval and risk mitigation.
 
 ## References
-- Home Credit Indonesia dataset available via Rakamin Academy
-- Python, pandas, scikit-learn, LightGBM, Random Forest, Jupyter Notebook
+- Project dataset: Home Credit Default Risk (available via Rakamin Academy)
+- Tools & Libraries: Python, Pandas, NumPy, Scikit-learn, LightGBM
+
+---
