@@ -6,8 +6,8 @@ The main objective of this project is to **predict the likelihood of loan applic
 
 ## Dataset
 The project uses:
-- **Core loan application data** (~300K records for train/test)
-- **Supplementary datasets** (~53M records) including bureau, credit card, POS_CASH, previous applications, and installments.
+- **Core loan application data** (300K+ records for train/test)
+- **Supplementary datasets** (53M+ records) including bureau, bureau balance, credit card, POS_CASH, previous applications, and installments.
 
 ## Project Workflow
 The project is structured in two main phases:
